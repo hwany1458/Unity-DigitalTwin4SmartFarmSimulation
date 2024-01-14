@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1861037488655184}
+  m_IsPrefabAsset: 1
+--- !u!1 &1861037488655184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4082953343307856}
+  - component: {fileID: 114037945947066812}
+  - component: {fileID: 114205826369114050}
+  - component: {fileID: 114506677312167686}
+  m_Layer: 0
+  m_Name: Plant_rose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4082953343307856
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861037488655184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5294195, y: -0.9482216, z: 0.71390957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114037945947066812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861037488655184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cde3d9fe5db542458b4d0dc5e79778b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gizmo_color: {r: 1, g: 0.87413794, b: 0.46323532, a: 1}
+  gizmo_size: 0.05
+  gizmo_type: 0
+--- !u!114 &114205826369114050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861037488655184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 1, y: 3}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 1
+  loop_mode: 0
+  stages:
+  - my_info: New stage
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1803086372455924, guid: cc303643ae46e2a449d86b653d3c4300,
+      type: 2}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0.5, y: 0.5, z: 0.5}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Stay
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1209580102900818, guid: 180223a474c2c794eb980cda901ddf5f,
+      type: 2}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Decrease
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0.001, y: 0.001, z: 0.001}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114506677312167686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861037488655184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e3bdead3c5c2744a349fa6d05b4575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

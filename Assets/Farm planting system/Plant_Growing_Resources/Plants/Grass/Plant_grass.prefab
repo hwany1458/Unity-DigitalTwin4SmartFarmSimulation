@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1095901633321194}
+  m_IsPrefabAsset: 1
+--- !u!1 &1095901633321194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4759234523975470}
+  - component: {fileID: 114383787290394762}
+  - component: {fileID: 114132685853577730}
+  m_Layer: 0
+  m_Name: Plant_grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759234523975470
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095901633321194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5389996, y: 0, z: -3.6580002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114132685853577730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095901633321194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 1, y: 4}
+  loop_count: 3
+  start_scale: {x: 0.01, y: 0.01, z: 0.01}
+  cycle_mode: 1
+  loop_mode: 1
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1211864527565902, guid: 2e9faba43cd6fe24ca75a52aabfd28ec,
+      type: 2}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow lite
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0.5, y: 0.5, z: 0.5}
+    new_plant_go: {fileID: 1211864527565902, guid: 2e9faba43cd6fe24ca75a52aabfd28ec,
+      type: 2}
+    duration: 5
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Stays Green
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 1
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 1, y: 1, z: 1}
+    new_plant_go: {fileID: 1211864527565902, guid: 2e9faba43cd6fe24ca75a52aabfd28ec,
+      type: 2}
+    duration: 0
+    speed: 3
+    go_for_repaint:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    target_color: {r: 1, g: 0, b: 0, a: 1}
+  - my_info: Stays Bad
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1211864527565902, guid: 9a134875a5529c8499e5066b45429770,
+      type: 2}
+    duration: 0
+    speed: 3
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Decrease
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 1
+    scale_axis_y: 1
+    scale_axis_z: 1
+    new_scale: {x: 0.001, y: 0.001, z: 0.001}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 5
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114383787290394762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095901633321194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cde3d9fe5db542458b4d0dc5e79778b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gizmo_color: {r: 0, g: 1, b: 0.08965516, a: 1}
+  gizmo_size: 0.1
+  gizmo_type: 0

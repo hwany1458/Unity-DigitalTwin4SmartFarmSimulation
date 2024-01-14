@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1196596551697442}
+  m_IsPrefabAsset: 1
+--- !u!1 &1196596551697442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4246833891417182}
+  - component: {fileID: 114972296495669496}
+  - component: {fileID: 82704043718931240}
+  m_Layer: 0
+  m_Name: hose_plant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4246833891417182
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196596551697442}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.85, y: 0, z: -5.457}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82704043718931240
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196596551697442}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114972296495669496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196596551697442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_grow: 0
+  plant_go: {fileID: 0}
+  start_scale: {x: 1, y: 1, z: 1}
+  stages:
+  - my_info: New stage
+    stage_go_action: 0
+    grow_mode: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1220569492631598, guid: 932a4476b8af6204d8a3ef69c893a0f2,
+      type: 2}
+    speed: 0
+    stage_start_sound: {fileID: 0}
+    first_sound: {fileID: 8300000, guid: 424a30b3c6b97514d990b7cf0d2b2a62, type: 3}
+    stage_flag_good: 0
+  - my_info: START
+    stage_go_action: 0
+    grow_mode: 1
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1220569492631598, guid: 932a4476b8af6204d8a3ef69c893a0f2,
+      type: 2}
+    speed: 100
+    stage_start_sound: {fileID: 8300000, guid: 3400a1174ff42534c9326c9ffeb240cb, type: 3}
+    first_sound: {fileID: 0}
+    stage_flag_good: 0
+  - my_info: END
+    stage_go_action: 0
+    grow_mode: 1
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 1881716576186140, guid: 6e7aedb89f7a7d24bbbe75e764817dce,
+      type: 2}
+    speed: 0
+    stage_start_sound: {fileID: 8300000, guid: 247fbd04e46825d4381a5e88322e7530, type: 3}
+    first_sound: {fileID: 0}
+    stage_flag_good: 0

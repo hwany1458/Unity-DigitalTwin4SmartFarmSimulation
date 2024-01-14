@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1644121284244456}
+  m_IsPrefabAsset: 1
+--- !u!1 &1067507313702822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4220366549429730}
+  - component: {fileID: 114669119345131462}
+  m_Layer: 0
+  m_Name: plant_stick (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1142656031314568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4387737667645584}
+  - component: {fileID: 114723081378948154}
+  m_Layer: 0
+  m_Name: plant_stick (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1172716077543362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4824365978698792}
+  - component: {fileID: 114990295571849930}
+  m_Layer: 0
+  m_Name: plant_stick (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1319731569409844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4502947199800340}
+  - component: {fileID: 114973161696071392}
+  m_Layer: 0
+  m_Name: plant_stick (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1466664518322592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4729345170636486}
+  - component: {fileID: 114899099503341342}
+  m_Layer: 0
+  m_Name: plant_stick (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1611849665056922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4786491577191724}
+  - component: {fileID: 114867537312491648}
+  m_Layer: 0
+  m_Name: plant_stick (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1644121284244456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4209867749641380}
+  - component: {fileID: 33323901812404028}
+  - component: {fileID: 23788340690317408}
+  m_Layer: 0
+  m_Name: Tree_with_sticks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1931689516140458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4271161647349682}
+  - component: {fileID: 114976044221219038}
+  m_Layer: 0
+  m_Name: plant_stick (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1972454981850712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4551159895084308}
+  - component: {fileID: 114867811700863230}
+  m_Layer: 0
+  m_Name: plant_stick (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4209867749641380
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644121284244456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.533943, y: -5.7017856, z: -2.2370076}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4824365978698792}
+  - {fileID: 4786491577191724}
+  - {fileID: 4551159895084308}
+  - {fileID: 4220366549429730}
+  - {fileID: 4271161647349682}
+  - {fileID: 4387737667645584}
+  - {fileID: 4502947199800340}
+  - {fileID: 4729345170636486}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4220366549429730
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067507313702822}
+  m_LocalRotation: {x: -0.75138557, y: -0.083392985, z: 0.09679125, w: 0.6473769}
+  m_LocalPosition: {x: 0.0002, y: -0.0005, z: 0.0094}
+  m_LocalScale: {x: 1, y: 0.99999934, z: 0.99999934}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -106.919, y: 60.553993, z: -59.455994}
+--- !u!4 &4271161647349682
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931689516140458}
+  m_LocalRotation: {x: -0.72971636, y: 0.13956967, z: -0.055485535, w: 0.66705}
+  m_LocalPosition: {x: -0.0005, y: 0.0001, z: 0.0223}
+  m_LocalScale: {x: 1.0000005, y: 1.000002, z: 1.0000019}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -73.341, y: 111.256004, z: -104.366005}
+--- !u!4 &4387737667645584
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142656031314568}
+  m_LocalRotation: {x: -0.268089, y: 0.69288856, z: -0.5951989, w: 0.30622217}
+  m_LocalPosition: {x: -0.001117, y: 0.000009, z: 0.0404993}
+  m_LocalScale: {x: 1.0000011, y: 1.0000026, z: 1.0000038}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 41.347, y: 97.95801, z: -78.651}
+--- !u!4 &4502947199800340
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319731569409844}
+  m_LocalRotation: {x: -0.54704136, y: -0.5027034, z: 0.5025103, w: 0.44217467}
+  m_LocalPosition: {x: -0.0004999995, y: 0.00010000229, z: 0.0223}
+  m_LocalScale: {x: 1.0000007, y: 1.0000023, z: 1.0000021}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 1.2290001, y: 264.033, z: -264.055}
+--- !u!4 &4551159895084308
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972454981850712}
+  m_LocalRotation: {x: -0.017897105, y: 0.7573827, z: -0.6525438, w: 0.015420006}
+  m_LocalPosition: {x: -0.00032, y: 0.00007, z: 0.04039}
+  m_LocalScale: {x: 1.0000012, y: 1.0000029, z: 1.0000037}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 81.077, y: 162.47101, z: -17.731}
+--- !u!4 &4729345170636486
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466664518322592}
+  m_LocalRotation: {x: -0.7161367, y: 0.19777304, z: -0.10892348, w: 0.66043156}
+  m_LocalPosition: {x: -0.0011170006, y: 0.000008997917, z: 0.0404993}
+  m_LocalScale: {x: 1.0000015, y: 1.0000029, z: 1.0000043}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -64.533005, y: 103.98701, z: -96.601006}
+--- !u!4 &4786491577191724
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1611849665056922}
+  m_LocalRotation: {x: -0.49710628, y: 0.5716936, z: -0.49255893, w: 0.42829615}
+  m_LocalPosition: {x: -0.00025, y: -0.00139, z: 0.03237}
+  m_LocalScale: {x: 1.0000008, y: 1.0000024, z: 1.0000029}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 7.8960004, y: 98.587006, z: -88.812004}
+--- !u!4 &4824365978698792
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172716077543362}
+  m_LocalRotation: {x: -0.65191466, y: 0.38594824, z: -0.33252463, w: 0.56167495}
+  m_LocalPosition: {x: 1.6610376e-11, y: 0.00038, z: 0.02596}
+  m_LocalScale: {x: 1, y: 1.000001, z: 1.000001}
+  m_Children: []
+  m_Father: {fileID: 4209867749641380}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -28.402, y: 99.67901, z: -94.63801}
+--- !u!23 &23788340690317408
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644121284244456}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: cfd4f3456fe94cb4aa997f20e578d916, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33323901812404028
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644121284244456}
+  m_Mesh: {fileID: 4300000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+--- !u!114 &114669119345131462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067507313702822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.6, y: 0.25, z: 1.2}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114723081378948154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142656031314568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.1, y: 0.05, z: 1}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114867537312491648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1611849665056922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.2, y: 0.05, z: 1}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 12
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114867811700863230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972454981850712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.1, y: 0.05, z: 1}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114899099503341342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466664518322592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.1, y: 0.05, z: 1}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 10
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114973161696071392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319731569409844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.5, y: 0.15, z: 2}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 8
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114976044221219038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931689516140458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.5, y: 0.15, z: 2}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 8
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114990295571849930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172716077543362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898cf41476160d640afd7db2db499900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant_go: {fileID: 0}
+  loop_range: {x: 0, y: 0}
+  loop_count: 0
+  start_scale: {x: 0.001, y: 0.001, z: 0.001}
+  cycle_mode: 0
+  loop_mode: 0
+  stages:
+  - my_info: 
+    stage_go_action: 0
+    grow_mode: 0
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0, y: 0, z: 0}
+    new_plant_go: {fileID: 100000, guid: e1c8d4a3053c0984f98eac922775d0a6, type: 3}
+    duration: 0
+    speed: 0
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}
+  - my_info: Grow stick
+    stage_go_action: 0
+    grow_mode: 3
+    color_mode: 0
+    scale_axis_x: 0
+    scale_axis_y: 0
+    scale_axis_z: 0
+    new_scale: {x: 0.5, y: 0.15, z: 2}
+    new_plant_go: {fileID: 0}
+    duration: 0
+    speed: 8
+    go_for_repaint: []
+    target_color: {r: 0, g: 0, b: 0, a: 0}

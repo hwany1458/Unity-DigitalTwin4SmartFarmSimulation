@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1975857578427414}
+  m_IsPrefabAsset: 1
+--- !u!1 &1975857578427414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4392953046790562}
+  - component: {fileID: 114032967583745688}
+  - component: {fileID: 114753778060526282}
+  - component: {fileID: 82878277992436808}
+  - component: {fileID: 114501877716911488}
+  m_Layer: 0
+  m_Name: MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4392953046790562
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975857578427414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 157.50655, y: 120.97844, z: -1.9827423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82878277992436808
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975857578427414}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114032967583745688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975857578427414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3671f598e92d14fb19b8189a1c170e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plants_base:
+  - name: Zikkurat
+    price: 550
+    reward: 800
+    ico: {fileID: 21300000, guid: 54b4416e97ff10c42899f5d821d9b8b2, type: 3}
+    plant_prefab: {fileID: 1196596551697442, guid: 9f571015bd8283746b21f5e246d5921b,
+      type: 2}
+    category: 4
+    text_offset: {x: 0, y: 0, z: 0}
+  - name: Hose
+    price: 150
+    reward: 300
+    ico: {fileID: 21300000, guid: 0570a836eb8f95546aac504bbc332f03, type: 3}
+    plant_prefab: {fileID: 1196596551697442, guid: 436468d357c2a914e82021dbe29f9025,
+      type: 2}
+    category: 4
+    text_offset: {x: 0, y: 0, z: 0}
+  - name: Carrot
+    price: 25
+    reward: 45
+    ico: {fileID: 21300000, guid: d8eb0c2b4e8f3e647855df2655c82d7b, type: 3}
+    plant_prefab: {fileID: 1099571161880496, guid: 531f7ad00c2db2a4e96abcdac30657c9,
+      type: 2}
+    category: 1
+    text_offset: {x: 0, y: 0, z: 0}
+  - name: Strawberry
+    price: 30
+    reward: 50
+    ico: {fileID: 21300000, guid: 0142073937ff06b409da51c004dd2b11, type: 3}
+    plant_prefab: {fileID: 1099571161880496, guid: e111eebd445b215449ef76b1f8661115,
+      type: 2}
+    category: 3
+    text_offset: {x: 0, y: 0, z: 0}
+  - name: Apple
+    price: 10
+    reward: 60
+    ico: {fileID: 21300000, guid: c6fae16b98d84ad42b1d4caec891e970, type: 3}
+    plant_prefab: {fileID: 1099571161880496, guid: a9073b3ced2735b4eb116bcda576df5d,
+      type: 2}
+    category: 2
+    text_offset: {x: 0, y: 0, z: 0}
+  - name: Grass
+    price: 5
+    reward: 100
+    ico: {fileID: 21300000, guid: beb80a91cd8c78745865ac9f32898bfa, type: 3}
+    plant_prefab: {fileID: 1812285148164770, guid: 1954ac88433efc347afd02747e1de39f,
+      type: 2}
+    category: 0
+    text_offset: {x: 0, y: 0, z: 0}
+  cursor: 0
+  cell_selection_distance: 500
+  buy_mode_key: 98
+  buy_mode_switch_sound: {fileID: 8300000, guid: 759a1eb35965aaf42b1707721ecdb9d7,
+    type: 3}
+  buy_mode_switch_go:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114501877716911488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975857578427414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cb60a8d229dd74fa034c7745e3b493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main_menu_build_indx: 0
+  next_level_build_indx: 2
+  is_last_level: 0
+--- !u!114 &114753778060526282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975857578427414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70fd0f8b80b021449b1748975250773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resources_quantity: 0
+  resources_name: $
+  resources_label: {fileID: 0}
+  start_res_amount: 100
+  can_win: 1
+  resources_to_win: 110
+  win_dialog: {fileID: 0}
+  win_particles: {fileID: 0}
+  win_audio: {fileID: 8300000, guid: d9e1303e6fba4554fa7151114eebc4c8, type: 3}
+  can_lose: 0
+  resources_to_lose: 0
+  lose_dialog: {fileID: 0}
+  lose_audio: {fileID: 8300000, guid: 7c08bf7c53cd6f84eaab8cd807c59185, type: 3}
